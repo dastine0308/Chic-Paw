@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 26px;
+    background: #ccc;
+}
+
+a{
+    color: #753e0b;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 1000px;
+    padding: 60px;
+    background-image: url('../images/wrapper-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 10px 30px #000;
+    margin: 60px auto 60px auto;
+    position: relative;
+}
+.page{
+    border: 5px solid #000;
+    padding: 40px;
+    background-image: url('../images/paper1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.group-1{
+    float: left;
+    width: 240px;
+    padding: 0 10px 0 10px;
+}
+.group-2{
+    float: right;
+    width: 600px;
+    padding: 0 10px 0 10px;
+}
+.picture img{
+    width: 100%;
+    border: 5px solid #000;
+    box-shadow: 0px 10px 20px #000;
+    border-radius: 50%;
+}
+
+.paperclip{
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+.paperclip img{
+    width: 150px;
+    height: 150px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+.information{
+    margin-bottom: 30px;
+}
+.information ul{
+    margin: 0;
+    padding: 0;
+}
+.information li{
+    font-size: 13px;
+    list-style: none;
+    line-height: 30px;
+}
+.information span{
+    font-weight: bold;
+    color:saddlebrown;
+    margin-right: 10px;
+}
+
+.social-media ul{
+    margin: 0;
+    padding: 0;
+}
+.social-media li{
+    list-style: none;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 15px;
+}
+.social-media img{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-right: 10px;
+    float: left;
+}
+
+.email{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.email img{
+    width: 50px;
+    height: 50px;
+}
